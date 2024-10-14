@@ -1,0 +1,32 @@
+[2024-10-14 07:29:45] Peer node started.
+[2024-10-14 07:29:45] Registered with indexing server: {"status": "success", "message": "Peer localhost:557 registered"}
+[2024-10-14 07:31:54] Connected by ('::1', 65006, 0, 0)
+[2024-10-14 07:31:55] Received message from ('::1', 65006, 0, 0): {"command": "subscribe", "topic": "Sports"}
+
+[2024-10-14 07:33:10] Peer node started.
+[2024-10-14 07:33:10] Registered with indexing server: {"status": "success", "message": "Peer localhost:557 registered"}
+[2024-10-14 07:33:21] Connected by ('::1', 65065, 0, 0)
+[2024-10-14 07:33:21] Received message from ('::1', 65065, 0, 0): {"command": "subscribe", "topic": "Sports"}
+
+[2024-10-14 07:57:47] Peer node started.
+[2024-10-14 07:57:47] Registered with indexing server: {"status": "success", "message": "Peer localhost:557 registered"}
+[2024-10-14 07:58:03] Peer node started.
+[2024-10-14 07:58:03] Registered with indexing server: {"status": "success", "message": "Peer localhost:557 registered"}
+[2024-10-14 07:58:22] Connected by ('::1', 1340, 0, 0)
+[2024-10-14 07:58:23] Received message from ('::1', 1340, 0, 0): {"command": "subscribe", "topic": "Sports"}
+
+[2024-10-14 07:59:58] Peer node started.
+[2024-10-14 07:59:58] Registered with indexing server: {"status": "success", "message": "Peer localhost:557 registered"}
+[2024-10-14 08:00:09] Connected by ('::1', 1415, 0, 0)
+[2024-10-14 08:00:09] Received message from ('::1', 1415, 0, 0): {"command": "subscribe", "topic": "Sports"}
+
+[2024-10-14 08:00:09] Subscribed to topic 'Sports' on localhost:555
+[2024-10-14 08:00:20] Connected by ('::1', 1426, 0, 0)
+[2024-10-14 08:00:20] Received message from ('::1', 1426, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Soccer match tonight!"}
+[2024-10-14 08:00:39] Connected by ('::1', 1439, 0, 0)
+[2024-10-14 08:00:39] Received message from ('::1', 1439, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Cricket match tonight!"}
+[2024-10-14 08:01:34] Connected by ('::1', 1484, 0, 0)
+[2024-10-14 08:01:34] Received message from ('::1', 1484, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Jay Hind Jay Bharat"}
+[2024-10-14 08:03:06] Connected by ('::1', 1533, 0, 0)
+[2024-10-14 08:03:06] Received message from ('::1', 1533, 0, 0): {"command": "publish", "topic": "Games", "message": "Kho Kho"}
+

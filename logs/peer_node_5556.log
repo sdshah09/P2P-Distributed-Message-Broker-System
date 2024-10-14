@@ -1,0 +1,98 @@
+[2024-10-14 08:49:18] Peer node started.
+[2024-10-14 08:49:18] Registered with indexing server: {"status": "success", "message": "Peer localhost:5556 registered"}
+[2024-10-14 08:50:27] Connected by ('::1', 2496, 0, 0)
+[2024-10-14 08:50:27] Received message from ('::1', 2496, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 08:50:27] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 08:50:27] Connected by ('::1', 2503, 0, 0)
+[2024-10-14 08:50:27] Received message from ('::1', 2503, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Football match tonight!"}
+[2024-10-14 08:50:27] Connected by ('::1', 2505, 0, 0)
+[2024-10-14 08:50:27] Received message from ('::1', 2505, 0, 0): {"command": "pull", "topic": "Sports"}
+[2024-10-14 08:51:55] Connected by ('::1', 2575, 0, 0)
+[2024-10-14 08:51:55] Received message from ('::1', 2575, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 08:51:55] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 08:51:55] Connected by ('::1', 2582, 0, 0)
+[2024-10-14 08:51:55] Received message from ('::1', 2582, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Football match tonight!"}
+[2024-10-14 08:51:56] Connected by ('::1', 2584, 0, 0)
+[2024-10-14 08:51:56] Received message from ('::1', 2584, 0, 0): {"command": "pull", "topic": "Sports"}
+[2024-10-14 08:52:55] Connected by ('::1', 2616, 0, 0)
+[2024-10-14 08:52:55] Received message from ('::1', 2616, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 08:52:55] Connected by ('::1', 2621, 0, 0)
+[2024-10-14 08:52:55] Received message from ('::1', 2621, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Football match tonight!"}
+[2024-10-14 08:52:55] Connected by ('::1', 2623, 0, 0)
+[2024-10-14 08:52:55] Received message from ('::1', 2623, 0, 0): {"command": "pull", "topic": "Sports"}
+[2024-10-14 08:54:03] Peer node started.
+[2024-10-14 08:54:03] Registered with indexing server: {"status": "success", "message": "Peer localhost:5556 registered"}
+[2024-10-14 08:54:11] Connected by ('::1', 2679, 0, 0)
+[2024-10-14 08:54:11] Received message from ('::1', 2679, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 08:54:11] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 08:54:11] Connected by ('::1', 2686, 0, 0)
+[2024-10-14 08:54:11] Received message from ('::1', 2686, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Football match tonight!"}
+[2024-10-14 08:54:11] Connected by ('::1', 2688, 0, 0)
+[2024-10-14 08:54:11] Received message from ('::1', 2688, 0, 0): {"command": "pull", "topic": "Sports"}
+[2024-10-14 08:54:39] Connected by ('::1', 2708, 0, 0)
+[2024-10-14 08:54:39] Received message from ('::1', 2708, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 08:54:39] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 08:54:39] Connected by ('::1', 2715, 0, 0)
+[2024-10-14 08:54:39] Received message from ('::1', 2715, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Football match tonight!"}
+[2024-10-14 08:54:45] Connected by ('::1', 2724, 0, 0)
+[2024-10-14 08:54:45] Received message from ('::1', 2724, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 08:54:45] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 08:54:45] Connected by ('::1', 2731, 0, 0)
+[2024-10-14 08:54:45] Received message from ('::1', 2731, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Football match tonight!"}
+[2024-10-14 09:07:39] Connected by ('::1', 3228, 0, 0)
+[2024-10-14 09:07:39] Received message from ('::1', 3228, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 09:07:39] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 09:07:39] Connected by ('::1', 3235, 0, 0)
+[2024-10-14 09:07:39] Received message from ('::1', 3235, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Football match tonight!"}
+[2024-10-14 09:13:37] Connected by ('::1', 3503, 0, 0)
+[2024-10-14 09:13:37] Received message from ('::1', 3503, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 09:13:37] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 09:13:37] Connected by ('::1', 3513, 0, 0)
+[2024-10-14 09:13:37] Received message from ('::1', 3513, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Football match tonight!"}
+[2024-10-14 09:13:56] Connected by ('::1', 3534, 0, 0)
+[2024-10-14 09:13:56] Received message from ('::1', 3534, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 09:13:56] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 09:13:56] Connected by ('::1', 3544, 0, 0)
+[2024-10-14 09:13:56] Received message from ('::1', 3544, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Cricket match tonight!"}
+[2024-10-14 09:25:29] Peer node started.
+[2024-10-14 09:25:29] Registered with indexing server: {"status": "success", "message": "Peer localhost:5556 registered"}
+[2024-10-14 09:26:07] Connected by ('::1', 3910, 0, 0)
+[2024-10-14 09:26:07] Received message from ('::1', 3910, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 09:26:07] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 09:26:07] Connected by ('::1', 3920, 0, 0)
+[2024-10-14 09:26:07] Received message from ('::1', 3920, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Cricket match tonight!"}
+[2024-10-14 09:26:29] Connected by ('::1', 3937, 0, 0)
+[2024-10-14 09:26:29] Received message from ('::1', 3937, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 09:26:29] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 09:26:29] Connected by ('::1', 3948, 0, 0)
+[2024-10-14 09:26:29] Received message from ('::1', 3948, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Football match tonight!"}
+[2024-10-14 09:34:38] Peer node started.
+[2024-10-14 09:34:38] Registered with indexing server: {"status": "success", "message": "Peer localhost:5556 registered"}
+[2024-10-14 09:34:51] Connected by ('::1', 4201, 0, 0)
+[2024-10-14 09:34:51] Received message from ('::1', 4201, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 09:34:51] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 09:34:51] Connected by ('::1', 4211, 0, 0)
+[2024-10-14 09:34:51] Received message from ('::1', 4211, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Football match tonight!"}
+[2024-10-14 09:34:51] Received message on topic 'Sports': Football match tonight!
+[2024-10-14 09:48:19] Peer node started.
+[2024-10-14 09:48:19] Registered with indexing server: {"status": "success", "message": "Peer localhost:5556 registered"}
+[2024-10-14 09:48:37] Connected by ('::1', 4615, 0, 0)
+[2024-10-14 09:48:37] Received message from ('::1', 4615, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 09:48:37] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 09:48:37] Connected by ('::1', 4625, 0, 0)
+[2024-10-14 09:48:37] Received message from ('::1', 4625, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Football match tonight!"}
+[2024-10-14 09:48:37] Received message on topic 'Sports': Football match tonight!
+[2024-10-14 09:48:57] Connected by ('::1', 4644, 0, 0)
+[2024-10-14 09:48:57] Received message from ('::1', 4644, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 09:48:57] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 09:48:57] Connected by ('::1', 4654, 0, 0)
+[2024-10-14 09:48:57] Received message from ('::1', 4654, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Football match tonight!"}
+[2024-10-14 09:48:57] Received message on topic 'Sports': Football match tonight!
+[2024-10-14 09:58:19] Peer node started.
+[2024-10-14 09:58:19] Registered with indexing server: {"status": "success", "message": "Peer localhost:5556 registered"}
+[2024-10-14 09:58:56] Connected by ('::1', 7836, 0, 0)
+[2024-10-14 09:58:56] Received message from ('::1', 7836, 0, 0): {"command": "subscribe", "topic": "Sports"}
+[2024-10-14 09:58:56] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 09:58:56] Connected by ('::1', 7846, 0, 0)
+[2024-10-14 09:58:56] Received message from ('::1', 7846, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Football match tonight!"}
+[2024-10-14 09:58:56] Received message on topic 'Sports': Football match tonight!

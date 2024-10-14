@@ -1,0 +1,43 @@
+[2024-10-14 07:29:35] Peer node started.
+[2024-10-14 07:29:35] Registered with indexing server: {"status": "success", "message": "Peer localhost:556 registered"}
+[2024-10-14 07:30:39] Connected by ('::1', 64954, 0, 0)
+[2024-10-14 07:30:39] Received message from ('::1', 64954, 0, 0): {"command": "subscribe", "topic": "Sports"}
+
+[2024-10-14 07:31:05] Connected by ('::1', 64968, 0, 0)
+[2024-10-14 07:31:05] Received message from ('::1', 64968, 0, 0): {"command": "subscribe", "topic": "Sports"}
+
+[2024-10-14 07:33:31] Peer node started.
+[2024-10-14 07:33:31] Registered with indexing server: {"status": "success", "message": "Peer localhost:556 registered"}
+[2024-10-14 07:34:01] Connected by ('::1', 65090, 0, 0)
+[2024-10-14 07:34:01] Received message from ('::1', 65090, 0, 0): {"command": "publish", "topic": "Sports", "message": "Soccer match tonight!"}
+
+[2024-10-14 07:58:08] Peer node started.
+[2024-10-14 07:58:08] Registered with indexing server: {"status": "success", "message": "Peer localhost:556 registered"}
+[2024-10-14 07:59:54] Peer node started.
+[2024-10-14 07:59:54] Registered with indexing server: {"status": "success", "message": "Peer localhost:556 registered"}
+[2024-10-14 08:00:20] Connected by ('::1', 1423, 0, 0)
+[2024-10-14 08:00:20] Received message from ('::1', 1423, 0, 0): {"command": "publish", "topic": "Sports", "message": "Soccer match tonight!"}
+
+[2024-10-14 08:00:39] Connected by ('::1', 1436, 0, 0)
+[2024-10-14 08:00:39] Received message from ('::1', 1436, 0, 0): {"command": "publish", "topic": "Sports", "message": "Cricket match tonight!"}
+
+[2024-10-14 08:01:34] Connected by ('::1', 1481, 0, 0)
+[2024-10-14 08:01:34] Received message from ('::1', 1481, 0, 0): {"command": "publish", "topic": "Sports", "message": "Jay Hind Jay Bharat"}
+
+[2024-10-14 08:02:28] Connected by ('::1', 1510, 0, 0)
+[2024-10-14 08:02:28] Received message from ('::1', 1510, 0, 0): {"command": "create_topic", "topic": "Games"}
+
+[2024-10-14 08:02:28] Indexing server update: {"status": "success", "message": "Topic 'Games' added"}
+[2024-10-14 08:02:28] Created topic 'Games'
+[2024-10-14 08:02:39] Connected by ('::1', 1520, 0, 0)
+[2024-10-14 08:02:39] Received message from ('::1', 1520, 0, 0): {"command": "subscribe_to_peer", "topic": "Games", "subscriber_port": 559}
+[2024-10-14 08:02:39] Peer 559 subscribed to topic 'Games'
+[2024-10-14 08:03:06] Connected by ('::1', 1535, 0, 0)
+[2024-10-14 08:03:06] Received message from ('::1', 1535, 0, 0): {"command": "publish", "topic": "Games", "message": "Kho Kho"}
+[2024-10-14 08:03:06] Published message on topic 'Games': Kho Kho
+[2024-10-14 08:03:41] Connected by ('::1', 1557, 0, 0)
+[2024-10-14 08:03:41] Received message from ('::1', 1557, 0, 0): {"command": "subscribe_to_peer", "topic": "Games", "subscriber_port": 555}
+[2024-10-14 08:03:41] Peer 555 subscribed to topic 'Games'
+[2024-10-14 08:03:59] Connected by ('::1', 1568, 0, 0)
+[2024-10-14 08:03:59] Received message from ('::1', 1568, 0, 0): {"command": "publish", "topic": "Games", "message": "Kabaddi"}
+[2024-10-14 08:03:59] Published message on topic 'Games': Kabaddi
