@@ -1,0 +1,30 @@
+[2024-10-14 12:30:49] Peer node started.
+[2024-10-14 12:30:49] Registered with indexing server: {"status": "success", "message": "Peer localhost:5555 registered"}
+[2024-10-14 12:31:19] Connected by ('::1', 40485, 0, 0)
+[2024-10-14 12:31:19] Received message from ('::1', 40485, 0, 0): {"command": "create_topic", "topic": "Sports"}
+
+[2024-10-14 12:31:19] Indexing server update: {"status": "success", "message": "Topic 'Sports' added"}
+[2024-10-14 12:31:19] Created topic 'Sports'
+[2024-10-14 12:31:28] Connected by ('::1', 40491, 0, 0)
+[2024-10-14 12:31:28] Received message from ('::1', 40491, 0, 0): {"command": "subscribe_to_peer", "topic": "Sports", "subscriber_port": 5556}
+[2024-10-14 12:31:28] Peer 5556 subscribed to topic 'Sports'
+[2024-10-14 12:31:33] Connected by ('::1', 40496, 0, 0)
+[2024-10-14 12:31:33] Received message from ('::1', 40496, 0, 0): {"command": "subscribe_to_peer", "topic": "Sports", "subscriber_port": 5557}
+[2024-10-14 12:31:33] Peer 5557 subscribed to topic 'Sports'
+[2024-10-14 12:31:41] Connected by ('::1', 40501, 0, 0)
+[2024-10-14 12:31:41] Received message from ('::1', 40501, 0, 0): {"command": "publish", "topic": "Sports", "message": "Football match tonight!"}
+
+[2024-10-14 12:31:41] Published message on topic 'Sports': Football match tonight!
+[2024-10-14 12:31:41] Sent message to subscriber 5556: {"status": "success", "message": "Message 'Football match tonight!' received on topic 'Sports'"}
+[2024-10-14 12:31:41] Sent message to subscriber 5557: {"status": "success", "message": "Message 'Football match tonight!' received on topic 'Sports'"}
+[2024-10-14 12:31:55] Connected by ('::1', 40510, 0, 0)
+[2024-10-14 12:31:55] Received message from ('::1', 40510, 0, 0): {"command": "publish", "topic": "Sports", "message": "Cricket match tonight!"}
+
+[2024-10-14 12:31:55] Published message on topic 'Sports': Cricket match tonight!
+[2024-10-14 12:31:55] Sent message to subscriber 5556: {"status": "success", "message": "Message 'Cricket match tonight!' received on topic 'Sports'"}
+[2024-10-14 12:31:55] Sent message to subscriber 5557: {"status": "success", "message": "Message 'Cricket match tonight!' received on topic 'Sports'"}
+[2024-10-14 12:32:21] Connected by ('::1', 40525, 0, 0)
+[2024-10-14 12:32:21] Received message from ('::1', 40525, 0, 0): {"command": "publish", "topic": "Sports", "message": "Shaswat match tonight!"}
+[2024-10-14 12:32:21] Published message on topic 'Sports': Shaswat match tonight!
+[2024-10-14 12:32:21] Sent message to subscriber 5556: {"status": "success", "message": "Message 'Shaswat match tonight!' received on topic 'Sports'"}
+[2024-10-14 12:32:21] Sent message to subscriber 5557: {"status": "success", "message": "Message 'Shaswat match tonight!' received on topic 'Sports'"}

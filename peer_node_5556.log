@@ -1,0 +1,18 @@
+[2024-10-14 12:30:58] Peer node started.
+[2024-10-14 12:30:58] Registered with indexing server: {"status": "success", "message": "Peer localhost:5556 registered"}
+[2024-10-14 12:31:28] Connected by ('::1', 40489, 0, 0)
+[2024-10-14 12:31:28] Received message from ('::1', 40489, 0, 0): {"command": "subscribe", "topic": "Sports"}
+
+[2024-10-14 12:31:28] Subscribed to topic 'Sports' on localhost:5555
+[2024-10-14 12:31:41] Connected by ('::1', 40502, 0, 0)
+[2024-10-14 12:31:41] Received message from ('::1', 40502, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Football match tonight!"}
+[2024-10-14 12:31:41] Received message on topic 'Sports': Football match tonight!
+[2024-10-14 12:31:55] Connected by ('::1', 40511, 0, 0)
+[2024-10-14 12:31:55] Received message from ('::1', 40511, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Cricket match tonight!"}
+[2024-10-14 12:31:55] Received message on topic 'Sports': Cricket match tonight!
+[2024-10-14 12:32:21] Connected by ('::1', 40523, 0, 0)
+[2024-10-14 12:32:21] Received message from ('::1', 40523, 0, 0): {"command": "publish", "topic": "Sports", "message": "Shaswat match tonight!"}
+
+[2024-10-14 12:32:21] Connected by ('::1', 40526, 0, 0)
+[2024-10-14 12:32:21] Received message from ('::1', 40526, 0, 0): {"command": "receive_message", "topic": "Sports", "message": "Shaswat match tonight!"}
+[2024-10-14 12:32:21] Received message on topic 'Sports': Shaswat match tonight!

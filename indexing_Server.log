@@ -1,0 +1,20 @@
+[2024-10-14 12:30:39] Starting the Indexing Server at localhost:6000
+[2024-10-14 12:30:39] Indexing Server ready to accept connections
+[2024-10-14 12:30:49] Connected to ('::1', 40458, 0, 0)
+[2024-10-14 12:30:49] Received message from ('::1', 40458, 0, 0): {"command": "register_peer", "host": "localhost", "port": 5555}
+[2024-10-14 12:30:49] Registered peer localhost:5555
+[2024-10-14 12:30:58] Connected to ('::1', 40463, 0, 0)
+[2024-10-14 12:30:58] Received message from ('::1', 40463, 0, 0): {"command": "register_peer", "host": "localhost", "port": 5556}
+[2024-10-14 12:30:58] Registered peer localhost:5556
+[2024-10-14 12:31:06] Connected to ('::1', 40472, 0, 0)
+[2024-10-14 12:31:06] Received message from ('::1', 40472, 0, 0): {"command": "register_peer", "host": "localhost", "port": 5557}
+[2024-10-14 12:31:06] Registered peer localhost:5557
+[2024-10-14 12:31:19] Connected to ('::1', 40486, 0, 0)
+[2024-10-14 12:31:19] Received message from ('::1', 40486, 0, 0): {"command": "add_topic", "host": "localhost", "port": 5555, "topic": "Sports"}
+[2024-10-14 12:31:19] Added topic 'Sports' hosted by localhost:5555
+[2024-10-14 12:31:28] Connected to ('::1', 40490, 0, 0)
+[2024-10-14 12:31:28] Received message from ('::1', 40490, 0, 0): {"command": "query_topic", "topic": "Sports"}
+[2024-10-14 12:31:33] Connected to ('::1', 40495, 0, 0)
+[2024-10-14 12:31:33] Received message from ('::1', 40495, 0, 0): {"command": "query_topic", "topic": "Sports"}
+[2024-10-14 12:32:21] Connected to ('::1', 40524, 0, 0)
+[2024-10-14 12:32:21] Received message from ('::1', 40524, 0, 0): {"command": "query_topic", "topic": "Sports"}

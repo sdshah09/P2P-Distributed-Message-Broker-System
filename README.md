@@ -5,6 +5,7 @@ This project implements a simple Peer-to-Peer (P2P) publisher-subscriber system 
 
 ## Table of Contents
 - [Overview](#overview)
+- [Files](#files)
 - [Features](#features)
 - [Architecture](#architecture)
 - [Components](#components)
@@ -21,7 +22,25 @@ This project implements a simple Peer-to-Peer (P2P) publisher-subscriber system 
 
 ## Overview
 
-This project demonstrates a simple P2P system where peers can create topics, subscribe to topics hosted by other peers, and publish messages that are forwarded to all subscribers. Peers communicate with each other and the central indexing server using asynchronous I/O.
+- This project demonstrates a simple P2P system where peers can create topics, subscribe to topics hosted by other peers, and publish messages that are forwarded to all subscribers. Peers communicate with each other and the central indexing server using asynchronous I/O.
+
+## Files
+### There are 2 main files.
+1. IndexingServer which is a centralized indexing server as per the assignment's requirement
+2. PeerNode this file contains code for host who can work as publisher or subscriber and will query indexing server according to user's pub sub requirements.
+
+### There are 2 folders.
+1. Log Folder:
+- This folder contains logs generated during the execution of the system.
+- It includes logs for both the Indexing Server and Peer Nodes, which provide detailed records of the actions performed, such as topic creation, subscriptions, and message publishing.
+- The logs are automatically created when you run the code, and they are stored in the main folder.
+- Note: This folder is provided for your reference to check system actions and ensure correctness.
+2. Test Folder:
+- This folder contains all the test scripts used for benchmarking and validating the APIs of the P2P Publisher-Subscriber model.
+- The test scripts in this folder are used to:
+- Benchmark API Performance: Measure the latency and throughput for APIs such as create_topic, subscribe, and publish_message.
+- Check API Functionality: Verify that all APIs (e.g., create_topic, subscribe, publish_message, delete_topic) are working correctly.
+- Additionally, this folder includes the graph file showing the benchmarking results for the API performance.
 
 ## Features
 
